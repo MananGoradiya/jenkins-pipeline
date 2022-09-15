@@ -4,7 +4,10 @@ pipeline{
     {
         stage("build")
         {
-            echo "HEllo from jenkins"
+            steps{
+                echo "HEllo from jenkins"
+            }
+            
         }
     }
 }
